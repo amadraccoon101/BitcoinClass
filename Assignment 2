@@ -1,0 +1,35 @@
+Name: Ahmad Ahbab
+Email: ahbabahmad101@gmail.com
+Discord: amadraccoon
+
+Input:
+<"Helloworld">
+<1>
+<2>
+<3>
+<4>
+
+Operations:
+OP_ADD // adds the top 2 items of the stack (4 and 3)
+OP_SUB // subs 2 - 7
+<57> // places 57 on stack
+OP_ADD // adds 57 and -5
+<52> // places 52 on the stack
+OP_EQUAL // checks if 52 is the answer, then puts 1 on the stack
+OP_EQUAL // checks if the answer was correct
+OP_NEGATE // negates the answer
+OP_IF // checks if number is not 0
+<"Based"> // adds this to the stack if so
+OP_ENDIF
+<"Based"> // adds checker to stack
+OP_EQUAL // checks if the item was added correctly
+OP_IF // if item was added correctly
+<"Helloworld"> // add this to stack
+OP_ENDIF
+OP_EQUAL // check if everything worked out by adding item to stack and comparing their values
+
+Result:
+OP_EQUAL checks that both strings on the stack are equal after the if statement, and they are, so it returns 1.
+
+Resources:
+https://ide.scriptwiz.app/ 
