@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ItemModifierGroups>
+	<ItemModifierGroup id="goods" no_modifier_loot_score="50"
+                     no_modifier_production_score="65"/>
+
+	<ItemModifierGroup id="consumables" no_modifier_loot_score="50"
+                     no_modifier_production_score="65"/>
+
+	<ItemModifierGroup id="animals" no_modifier_loot_score="50" 
+					no_modifier_production_score="65" />
+
+</ItemModifierGroups>
